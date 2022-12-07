@@ -5,6 +5,11 @@
     --color-card: #1E212C;
 }
 
+.container {
+    max-width: 830px;
+    margin: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -27,4 +32,72 @@ header .logo {
     width: 45px;
     height: 45px;
     margin-right: 5px;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.action-title h2 {
+    font-size: 40px;
+    color: var(--color-font);
+}
+
+.button {
+    background-color: var(--color-buttom);
+    display: inline-block;
+    padding: 15px 70px;
+    border-radius: 50px;
+    color: var(--color-font);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ebook img {
+    width: 230px;
+    height: auto;
+    margin-right: 50px;
+}
+
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 180px;
+}
+
+.section-2 h2 {
+    color: var(--color-font);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-card);
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    color: var(--color-font);
+}
+
+.card img {
+    width: 65px;
+    height: 65px;    
 }
