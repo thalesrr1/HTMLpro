@@ -155,3 +155,49 @@ footer p {
     margin-top: 35px;
     margin-bottom: 40px;
 }
+
+@media (max-width: 420px){
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .ebook img {
+        margin-right: 0px;
+    }
+
+    .action-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-title h2 {
+        font-size: 26px;
+        text-align: center;
+        color: var(--color-font);
+    }
+    .button {
+        margin-top: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 40px;
+    }
+
+    .section-3 h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .section-3 p {
+        font-size: 14px;
+    }
+}
